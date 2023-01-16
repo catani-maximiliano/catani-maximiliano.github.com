@@ -24,37 +24,6 @@ const Item = ({ element }) => {
 
       </div>
     </div>
-    /*  <Card sx={{ maxWidth: 350}} className="h-32">
-        <CardMedia
-          component="img"
-          height="200"
-          image={element.img}
-        />
-        <CardContent>
-          <Typography
-            gutterBottom
-            variant="h5"
-            component="div"
-            color="primary"
-            align="center"
-          >
-            {element.name}
-          </Typography>
-          <Typography variant="body1" color="text.secondary" align="center">
-            {element.description}
-          </Typography>
-          <Typography variant="body1" color="secondary" align="center">
-            ${element.price}.-
-          </Typography>
-        </CardContent>
-        <CardActions style={{ display: "flex", justifyContent: "center" }}>
-          <Link to={`/itemDetail/${element.id}`} style={{textDecoration: "none"}}>
-            <Button size="large" variant="contained">
-              Ver detalle
-            </Button>
-          </Link>
-        </CardActions>
-      </Card>*/
   )
 }
 
